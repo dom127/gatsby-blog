@@ -1,10 +1,12 @@
 import React from "react"
-import styled from "styled-components"
+import { Container } from "../components/Container"
 
-const Test = styled.div`
-  font-size: 2rem;
-`
-
-export default function Home() {
-  return <Test>Hello world!</Test>
+const IndexPage = () => {
+  return (
+    <Container>
+      <h1>Hello world!</h1>
+    </Container>
+  )
 }
+
+export default IndexPage
