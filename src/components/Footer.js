@@ -26,14 +26,14 @@ export const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={data.facebook.publicURL} />
+            <img src={data.facebook.publicURL} alt="Facebook" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={data.instagram.publicURL} />
+            <img src={data.instagram.publicURL} alt="Instagram" />
           </a>
         </FooterSocialIcons>
         <p>2020 Dominik J. All rights reserved.</p>
