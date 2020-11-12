@@ -1,14 +1,14 @@
 import React from "react"
 import { ContainerWrapper } from "../utils/ContainerElements"
-import { Nav } from "../components/Nav"
+import { Nav } from "./Nav"
+import { Footer } from "./Footer"
 
 export const Container = ({ children }) => {
   return (
     <ContainerWrapper>
       <Nav></Nav>
       {children}
+      <Footer />
     </ContainerWrapper>
   )
 }
-
-export default Container
